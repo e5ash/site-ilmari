@@ -1,0 +1,177 @@
+i.icon-arrow-left-green {
+  background-image: url(../img/sprite.png);
+  background-position: -360px -114px;
+  width: 29px;
+  height: 57px; }
+
+i.icon-arrow-left {
+  background-image: url(../img/sprite.png);
+  background-position: -360px -57px;
+  width: 29px;
+  height: 57px; }
+
+i.icon-arrow-right-green {
+  background-image: url(../img/sprite.png);
+  background-position: -180px -127px;
+  width: 30px;
+  height: 57px; }
+
+i.icon-arrow-right {
+  background-image: url(../img/sprite.png);
+  background-position: -360px 0px;
+  width: 30px;
+  height: 57px; }
+
+i.icon-cross-black {
+  background-image: url(../img/sprite.png);
+  background-position: -360px -285px;
+  width: 18px;
+  height: 18px; }
+
+i.icon-cross-green {
+  background-image: url(../img/sprite.png);
+  background-position: -360px -267px;
+  width: 18px;
+  height: 18px; }
+
+i.icon-lamp {
+  background-image: url(../img/sprite.png);
+  background-position: -271px -89px;
+  width: 38px;
+  height: 41px; }
+
+i.icon-logo {
+  background-image: url(../img/sprite.png);
+  background-position: -146px -220px;
+  width: 164px;
+  height: 26px; }
+
+i.icon-magnifying-glass-blue {
+  background-image: url(../img/sprite.png);
+  background-position: -360px -171px;
+  width: 28px;
+  height: 29px; }
+
+i.icon-magnifying-glass-invert {
+  background-image: url(../img/sprite.png);
+  background-position: -310px -200px;
+  width: 42px;
+  height: 42px; }
+
+i.icon-magnifying-glass-white {
+  background-image: url(../img/sprite.png);
+  background-position: -271px -139px;
+  width: 34px;
+  height: 35px; }
+
+i.icon-magnifying-glass {
+  background-image: url(../img/sprite.png);
+  background-position: -310px -242px;
+  width: 42px;
+  height: 42px; }
+
+i.icon-mail-active {
+  background-image: url(../img/sprite.png);
+  background-position: -310px -100px;
+  width: 50px;
+  height: 50px; }
+
+i.icon-mail-default {
+  background-image: url(../img/sprite.png);
+  background-position: -310px -150px;
+  width: 50px;
+  height: 50px; }
+
+i.icon-mir {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -262px;
+  width: 101px;
+  height: 44px; }
+
+i.icon-play-default {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -127px;
+  width: 93px;
+  height: 93px; }
+
+i.icon-play-hover {
+  background-image: url(../img/sprite.png);
+  background-position: -128px 0px;
+  width: 93px;
+  height: 93px; }
+
+i.icon-share-big {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 128px;
+  height: 127px; }
+
+i.icon-share-blue {
+  background-image: url(../img/sprite.png);
+  background-position: -93px -127px;
+  width: 87px;
+  height: 93px; }
+
+i.icon-share {
+  background-image: url(../img/sprite.png);
+  background-position: -221px 0px;
+  width: 89px;
+  height: 89px; }
+
+i.icon-sound-off {
+  background-image: url(../img/sprite.png);
+  background-position: -101px -262px;
+  width: 42px;
+  height: 38px; }
+
+i.icon-suprice {
+  background-image: url(../img/sprite.png);
+  background-position: -360px -243px;
+  width: 21px;
+  height: 24px; }
+
+i.icon-thermomethr {
+  background-image: url(../img/sprite.png);
+  background-position: -360px -200px;
+  width: 17px;
+  height: 43px; }
+
+i.icon-time {
+  background-image: url(../img/sprite.png);
+  background-position: -128px -93px;
+  width: 34px;
+  height: 34px; }
+
+i.icon-visa-mastercard {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -220px;
+  width: 146px;
+  height: 42px; }
+
+i.icon-vk-active {
+  background-image: url(../img/sprite.png);
+  background-position: -221px -89px;
+  width: 50px;
+  height: 50px; }
+
+i.icon-vk-default {
+  background-image: url(../img/sprite.png);
+  background-position: -310px -50px;
+  width: 50px;
+  height: 50px; }
+
+i.icon-youtube-active {
+  background-image: url(../img/sprite.png);
+  background-position: -310px 0px;
+  width: 50px;
+  height: 50px; }
+
+i.icon-youtube-default {
+  background-image: url(../img/sprite.png);
+  background-position: -221px -139px;
+  width: 50px;
+  height: 50px; }
+
+i.icon {
+  display: inline-block;
+  vertical-align: middle; }

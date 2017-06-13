@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Title</title>
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" /> -->
+
+		<meta name="viewport" content="width=device-width, initial-scale=0.33, user-scalable=yes">
+
+		<!-- Styles -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&amp;subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="bitrix/templates/template/styles/libs.min.css">
+		<link rel="stylesheet" href="bitrix/templates/template/styles/style.css">
+		<link rel="stylesheet" href="bitrix/templates/template/styles/responsive.css">
+		<!-- /Styles -->
+		
+		<!-- Scripts -->
+		<script src="bitrix/templates/template/scripts/libs.min.js"></script>
+		<script src="bitrix/templates/template/scripts/scripts.js"></script>
+		<!-- /Scripts -->
+	</head>
+	<body>
+		<div class="popup" id="popup-share">
+			<div class="step step_1">
+				<div class="popup__header">
+					<div class="popup__title">Посчитать со скидкой</div>
+				</div>
+				<div class="popup__body">
+					<p class="color-gray">Наш менеджер позвонит вам и рассчитает окна со <br />скидкой по вашим размерам.</p>
+					<div class="popup__form form-wrap">
+						<div class="row">
+							<div class="col"><label for="" class="label"><p>Телефон <span class="color-red">*</span></p><input type="text" class="input input-default input-phone input-requred" placeholder="8 (___) ___ __ __"></label></div>
+							<div class="col"><label for="" class="label"><p>Имя</p><input type="text" class="input input-default"></label></div>
+						</div>
+						<div class="row">
+							<div class="col"><button class="button button-send">Отправить заявку </button></div>
+							<div class="col"><span class="color-red">*</span> - Обязательно</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="step step_2">
+				<div class="popup__header">
+					<div class="popup__title">Спасибо за заявку!</div>
+				</div>
+				<div class="popup__body">
+					<p>Мы перезвоним вам в ближайшее время</p>
+				</div>
+			</div>
+		</div>
+		<div class="popup" id="popup-good">
+			<div class="step step_1">
+				<div class="popup__header">
+					<div class="popup__title">Спасибо за заявку!</div>
+				</div>
+				<div class="popup__body">
+					<p>Мы перезвоним вам в ближайшее время</p>
+				</div>
+			</div>
+		</div>
+		<div class="popup" id="popup-video"><iframe src="//vk.com/video_ext.php?oid=6963889&id=456239045&hash=f0b7b0061937cc7a&hd=1" width="1140" height="550" frameborder="0" allowfullscreen></iframe></div>
+		<div class="panel">
+			<div class="container row">
+				<div class="logo col"><img src="uploads/images/logos/ilmari.png" alt=""></div>
+				<div class="nav col">
+					<ul class="li_line li_reset">
+						<li><a href="#share" class="nav__item_select">Акция</a></li>
+						<li><a href="#price">Стоимость</a></li>
+						<li><a href="#advantages">Преимущества</a></li>
+						<li><a href="#windows">Окна</a></li>
+						<li><a href="#windowsill">Подоконники</a></li>
+						<li><a href="#portfolio">Наши работы</a></li>
+						<li><a href="#reviews">Отзывы</a></li>
+						<li><a href="#contacts">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="contacts-block col">
+					<p class="contacts-block__time">с 10:00 до 19:00, ежедн.</p>
+					<p class="contacts-block__phone"><a href="">+7 (919) 600 20 20</a></p>
+					<p class="contacts-block__callback"><span class="callback callback_red">Заказать звонок</span></p>
+				</div>
+			</div>
+		</div>
+		<div id="share" class="header anchor">
+			<div class="container">
+				<div class="header__content">
+					<div class="header__title"><span>Теплосберегающие окна</span>со скидкой 35%</div>
+					<div class="header__text">
+						<div class="header__subtitle">Акция до 23 марта: </div>
+						<p>Закажите теплосберегающие окна ILMARI по специальной цене со скидкой 35 %. <br />Для точного расчета стоимости и фиксирования скидки, отправьте заявку прямо сейчас и получите москитную сетку в подарок:</p>
+					</div>
+					<div class="header__form">
+						<input type="text" class="input input-radius input-phone" placeholder="8 (___) ___ __ __">
+						<button class="button">Получить подарок</button>
+					</div>
+					<div class="header__share share share-big"><span>-35%</span>скидка!</div>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div id="price" class="products anchor">
+				<div class="container">
+					<div class="products__title title"><h2>Стоимость типовых изделий</h2></div>
+					<div class="products__list dots slider-content">
+						<div class="products__item w365 product__item_slide-1">
+							<div class="products__subtitle">Двухстворчатое окно</div>
+							<div class="products__img">
+								<img src="uploads/images/products/1.png" alt="">
+								<div class="products__share share-minni"><span>-35%</span>скидка!</div>
+							</div>
+							<div class="products__content">
+								<div class="products__count">12 500 +<div class="suprice"><i class="icon icon-suprice"></i><span>Москитная <br />сетка</span></div></div>
+								<div class="products__count-old">от <span>32 700</span> руб.*</div>
+								<a data-fancybox data-src="#popup-share" href="javascript:;" class="products__button button">Посчитать со скидкой</a>
+							</div>
+						</div>
+						<div class="products__item w392 product__item_slide-1">
+							<div class="products__subtitle">Трехстворчатое окно</div>
+							<div class="products__img">
+								<img src="uploads/images/products/2.png" alt="">
+								<div class="products__share share-minni"><span>-35%</span>скидка!</div>
+							</div>
+							<div class="products__content">
+								<div class="products__count">18 500 +<div class="suprice"><i class="icon icon-suprice"></i><span>Москитная <br />сетка</span></div></div>
+								<div class="products__count-old">от <span>32 700</span> руб.*</div>
+								<a data-fancybox data-src="#popup-share" href="javascript:;" class="products__button button">Посчитать со скидкой</a>
+							</div>
+						</div>
+						<div class="products__item products__item_balkon w392 product__item_slide-1">
+							<div class="products__subtitle">Балконный блок</div>
+							<div class="products__img">
+								<img src="uploads/images/products/3.png" alt="">
+								<div class="products__share share-minni"><span>-35%</span>скидка!</div>
+							</div>
+							<div class="products__content">
+								<div class="products__count">28 500 +<div class="suprice"><i class="icon icon-suprice"></i><span>Москитная <br />сетка</span></div></div>
+								<div class="products__count-old">от <span>32 700</span> руб.*</div>
+								<a data-fancybox data-src="#popup-share" href="javascript:;" class="products__button button">Посчитать со скидкой</a>
+							</div>
+						</div>
+						<div class="products__item w570 product__item_slide-2">
+							<div class="products__subtitle">Теплое остекление лоджии</div>
+							<div class="products__img">
+								<img src="uploads/images/products/4.png" alt="">
+								<div class="products__share share share-blue"><span>55%</span>скидка</div>
+							</div>
+							<div class="products__content">
+								<div class="products__count">32 500</div>
+								<div class="products__count-old">от <span>42 700</span> руб.*</div>
+								<a data-fancybox data-src="#popup-share" href="javascript:;" class="products__button button">Посчитать со скидкой</a>
+							</div>
+						</div>
+						<div class="products__item w570 product__item_slide-2">
+							<div class="products__subtitle">Теплое остекление лоджии</div>
+							<div class="products__img">
+								<img src="uploads/images/products/5.png" alt="">
+								<div class="products__share share share-blue"><span>35%</span>скидка</div>
+							</div>
+							<div class="products__content">
+								<div class="products__count">22 500</div>
+								<div class="products__count-old">от <span>32 700</span> руб.*</div>
+								<a data-fancybox data-src="#popup-share" href="javascript:;" class="products__button button">Посчитать со скидкой</a>
+							</div>
+						</div>
+						<div class="products__item w0"></div>
+						<div class="products__item w365 product__item_slide-3">
+							<div class="products__subtitle">Одностворчатая дверь</div>
+							<div class="products__img">
+								<img src="uploads/images/products/6.png" alt="">
+								<div class="products__share share share-blue"><span>55%</span>скидка</div>
+							</div>
+							<div class="products__content">
+								<div class="products__count">32 500</div>
+								<div class="products__count-old">от <span>42 700</span> руб.*</div>
+								<a data-fancybox data-src="#popup-share" href="javascript:;" class="products__button button">Посчитать со скидкой</a>
+							</div>
+						</div>
+						<div class="products__item w392 product__item_slide-3">
+							<div class="products__subtitle">Холодная двустворчатая дверь</div>
+							<div class="products__img">
+								<img src="uploads/images/products/7.png" alt="">
+								<div class="products__share share share-blue"><span>35%</span>скидка</div>
+							</div>
+							<div class="products__content">
+								<div class="products__count">22 500</div>
+								<div class="products__count-old">от <span>32 700</span> руб.*</div>
+								<a data-fancybox data-src="#popup-share" href="javascript:;" class="products__button button">Посчитать со скидкой</a>
+							</div>
+						</div>
+						<div class="products__item w392 product__item_slide-3">
+							<div class="products__subtitle">Теплая  дверь  двустворчатая</div>
+							<div class="products__img">
+								<img src="uploads/images/products/8.png" alt="">
+								<div class="products__share share share-blue"><span>35%</span>скидка</div>
+							</div>
+							<div class="products__content">
+								<div class="products__count">22 500</div>
+								<div class="products__count-old">от <span>32 700</span> руб.*</div>
+								<a data-fancybox data-src="#popup-share" href="javascript:;" class="products__button button">Посчитать со скидкой</a>
+							</div>
+						</div>
+						<div class="products__item w380 product__item_slide-4">
+							<div class="products__subtitle">Вертикальные жалюзи</div>
+							<div class="products__img">
+								<img src="uploads/images/products/9.png" alt="">
+								<div class="products__share share share-blue"><span>55%</span>скидка</div>
+							</div>
+							<div class="products__content">
+								<div class="products__count">1 500</div>
+								<div class="products__count-old">от <span>2 700</span> руб.*</div>
+								<a data-fancybox data-src="#popup-share" href="javascript:;" class="products__button button">Посчитать со скидкой</a>
+							</div>
+						</div>
+						<div class="products__item w380 product__item_slide-4">
+							<div class="products__subtitle">Рулонные шторы</div>
+							<div class="products__img">
+								<img src="uploads/images/products/10.png" alt="">
+								<div class="products__share share share-blue"><span>55%</span>скидка</div>
+							</div>
+							<div class="products__content">
+								<div class="products__count">3 500</div>
+								<div class="products__count-old">от <span>4 700</span> руб.*</div>
+								<a data-fancybox data-src="#popup-share" href="javascript:;" class="products__button button">Посчитать со скидкой</a>
+							</div>
+						</div>
+						<div class="products__item w380 product__item_slide-4">
+							<div class="products__subtitle">Горизонтальные жалюзи</div>
+							<div class="products__img">
+								<img src="uploads/images/products/11.png" alt="">
+								<div class="products__share share share-blue"><span>55%</span>скидка</div>
+							</div>
+							<div class="products__content">
+								<div class="products__count">5 500</div>
+								<div class="products__count-old">от <span>6 700</span> руб.*</div>
+								<a data-fancybox data-src="#popup-share" href="javascript:;" class="products__button button">Посчитать со скидкой</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="advantages" class="advantages anchor">
+				<div class="container">
+					<div class="advantages__title title"><h2>Преимущества окон Илмари</h2></div>
+					<div class="advantages__content">
+						<div class="advantages__nav slider-nav">
+							<div>Теплосбережение</div>
+							<div>Защита от шума</div>
+							<div>Безопасность</div>
+							<div>Идеальный цвет</div>
+						</div>
+						<div class="advantages__slider slider-content">
+							<div class="slide-1">
+								<div class="advantages__subtitle"><h3>Теплосбережение</h3></div>
+								<div class="advantages__text">
+									<p>До 63% лучшее теплосбережение благодаря энергосберегающему стеклу в стеклопакете <br />и многокамерному профилю.</p>
+									<p>Многокамерный профиль со стальным армированием обеспечивает максимальное теплосбережение, и долгие годы надёжной службы окон.</p>
+									<p>В окнах серии Prestige со стеклопакетом 6-8-6-14-4-16-4 достигается до 63% лучшее теплосбережение <br />по сравнению с обычными окнами. </p>
+								</div>
+								<img src="uploads/images/advantages/1.png" alt="" class="advantages__img">
+							</div>
+							<div class="slide-2">
+								<div class="advantages__subtitle"><h3>Защита от шума</h3></div>
+								<div class="advantages__text">
+									<p>Благодаря усиленной звукоизоляции окон ПВХ и другим шумозащитным решениям Ilmari вы можете без помех слушать хорошую музыку, общаться с близкими людьми, полноценно отдыхать и отлично высыпаться. <br />Вы можете наслаждаться тишиной.</p>
+								</div>
+								<img src="uploads/images/advantages/2.png" alt="" class="advantages__img">
+							</div>
+							<div class="slide-3">
+								<div class="advantages__subtitle"><h3>Безопасность</h3></div>
+								<div class="advantages__text">
+									<p>Сниженная комбинация профилей коробки и створки дает преимущество по светопропусканию до 9% выше, чем у обычного окна.</p>
+									<p>Белоснежный цвет и глянцевая поверхность профиля придают вашему дому всгда светлый и аккуратный вид</p>
+								</div>
+								<img src="uploads/images/advantages/3.png" alt="" class="advantages__img">
+							</div>
+							<div class="slide-4">
+								<div class="advantages__subtitle"><h3>Идеальный цвет и глянец</h3></div>
+								<div class="advantages__text">
+									<p>Белоснежный цвет и глянцевая поверхность <br />профиля придают вашему дому всгда свелый <br />и аккуратный вид</p>
+								</div>
+								<img src="uploads/images/advantages/4.png" alt="" class="advantages__img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="windows" class="window anchor">
+				<div class="container">
+					<div class="window__title title">Выбери свое окно</div>
+					<div class="window__content">
+						<div class="window__nav">
+							<div>
+								<div class="window__subtitle">Solo</div>
+								<div class="window__desc">Все необходимое, ничего лишнего</div>
+								<div class="window__img"><img src="uploads/images/windows/solo/Solo1.png" alt=""></div>
+							</div>
+							<div>
+								<div class="window__subtitle">Classic</div>
+								<div class="window__desc">Больше энергии жизни</div>
+								<div class="window__img"><img src="uploads/images/windows/classic/Classic1.png" alt=""></div>
+								<div class="window__share share-minni"><span>Хит</span></div>
+							</div>
+							<div>
+								<div class="window__subtitle">Elegance</div>
+								<div class="window__desc">Индивидуальность во всем</div>
+								<div class="window__img"><img src="uploads/images/windows/elegance/Elegance1.png" alt=""></div>
+							</div>
+							<div>
+								<div class="window__subtitle">Prestige</div>
+								<div class="window__desc">Самые тихие окна</div>
+								<div class="window__img"><img src="uploads/images/windows/prestige/Prestige1.png" alt=""></div>
+							</div>
+						</div>
+						<div class="window__slider slider-content">
+							<div class="row">
+								<div class="window__left col">
+									<div class="window__subtitle">Solo</div>
+									<div class="window__desc">Все необходимое, ничего лишнего</div>
+									<div class="window__text">ILMARI Classic — отлично защищают от холода и очень надёжны. Их лаконичный, классический для пластиковых окон, дизайн, дополняет безупречной белизной и глянцевой поверхностью профиля.</div>
+									<div class="window__icons icons">
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-thermomethr"></i></div><span>Тепло</span></div>
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-sound-off"></i></div><span>Звук</span></div>
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-lamp"></i></div><span>Свет</span></div>
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-time"></i></div><span>Гарантия</span></div>
+									</div>
+								</div>
+								<div class="window__middle col">
+									<div class="window__img"><img src="uploads/images/windows/solo/Solo2.png" alt=""></div>
+									<div class="window__share share-minni"><span>-35%</span>скидка!</div>
+									<div class="window__zoom"><a data-fancybox="windows-solo" href="uploads/images/other/main.png"><i class="icon icon-magnifying-glass"></i></a></div>
+								</div>
+								<div class="window__right col">
+									<div class="window__price"><span>22 500</span> руб.</div>
+									<div class="window__price-old">от <span>32 700</span> руб.*</div>
+									<a data-fancybox data-src="#popup-share" href="javascript:;" class="window__button button">Посчитать со скидкой</a>
+									<div class="window__status status">
+										<div class="status__line"><div class="status__title">Шумоизоляция <span>до 40 дБ</span></div><div class="status__bar status__bar_blue" data-status="40"><div></div></div></div>
+										<div class="status__line"><div class="status__title">Теплоизоляция <span>- 0,83м2 с/вт</span></div><div class="status__bar status__bar_orange" data-status="60"><div></div></div></div>
+										<div class="status__line"><div class="status__title">Светопропускание <span>+ 8,9%</span></div><div class="status__bar status__bar_gray" data-status="50"><div></div></div></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="window__left col">
+									<div class="window__subtitle">Classic</div>
+									<div class="window__desc">Больше энергии жизни</div>
+									<div class="window__text">ILMARI Classic — отлично защищают от холода и очень надёжны. Их лаконичный, классический для пластиковых окон, дизайн, дополняет безупречной белизной и глянцевой поверхностью профиля.</div>
+									<div class="window__icons icons">
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-thermomethr"></i></div><span>Тепло</span></div>
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-sound-off"></i></div><span>Звук</span></div>
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-lamp"></i></div><span>Свет</span></div>
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-time"></i></div><span>Гарантия</span></div>
+									</div>
+								</div>
+								<div class="window__middle col">
+									<div class="window__img"><img src="uploads/images/windows/classic/Classic2.png" alt=""></div>
+									<div class="window__share share-minni"><span>-35%</span>скидка!</div>
+									<div class="window__zoom"><a data-fancybox="windows-classic" href="uploads/images/other/main.png"><i class="icon icon-magnifying-glass"></i></a></div>
+								</div>
+								<div class="window__right col">
+									<div class="window__price"><span>22 500</span> руб.</div>
+									<div class="window__price-old">от <span>32 700</span> руб.*</div>
+									<a data-fancybox data-src="#popup-share" href="javascript:;" class="window__button button">Посчитать со скидкой</a>
+									<div class="window__status status">
+										<div class="status__line"><div class="status__title">Шумоизоляция <span>до 40 дБ</span></div><div class="status__bar status__bar_blue" data-status="40"><div></div></div></div>
+										<div class="status__line"><div class="status__title">Теплоизоляция <span>- 0,83м2 с/вт</span></div><div class="status__bar status__bar_orange" data-status="60"><div></div></div></div>
+										<div class="status__line"><div class="status__title">Светопропускание <span>+ 8,9%</span></div><div class="status__bar status__bar_gray" data-status="50"><div></div></div></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="window__left col">
+									<div class="window__subtitle">Elegance</div>
+									<div class="window__desc">Индивидуальность во всем</div>
+									<div class="window__text">ILMARI Classic — отлично защищают от холода и очень надёжны. Их лаконичный, классический для пластиковых окон, дизайн, дополняет безупречной белизной и глянцевой поверхностью профиля.</div>
+									<div class="window__icons icons">
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-thermomethr"></i></div><span>Тепло</span></div>
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-sound-off"></i></div><span>Звук</span></div>
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-lamp"></i></div><span>Свет</span></div>
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-time"></i></div><span>Гарантия</span></div>
+									</div>
+								</div>
+								<div class="window__middle col">
+									<div class="window__img"><img src="uploads/images/windows/elegance/Elegance2.png" alt=""></div>
+									<div class="window__share share-minni"><span>-35%</span>скидка!</div>
+									<div class="window__zoom"><a data-fancybox="windows-elegance" href="uploads/images/other/main.png"><i class="icon icon-magnifying-glass"></i></a></div>
+								</div>
+								<div class="window__right col">
+									<div class="window__price"><span>22 500</span> руб.</div>
+									<div class="window__price-old">от <span>32 700</span> руб.*</div>
+									<a data-fancybox data-src="#popup-share" href="javascript:;" class="window__button button">Посчитать со скидкой</a>
+									<div class="window__status status">
+										<div class="status__line"><div class="status__title">Шумоизоляция <span>до 40 дБ</span></div><div class="status__bar status__bar_blue" data-status="40"><div></div></div></div>
+										<div class="status__line"><div class="status__title">Теплоизоляция <span>- 0,83м2 с/вт</span></div><div class="status__bar status__bar_orange" data-status="60"><div></div></div></div>
+										<div class="status__line"><div class="status__title">Светопропускание <span>+ 8,9%</span></div><div class="status__bar status__bar_gray" data-status="50"><div></div></div></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="window__left col">
+									<div class="window__subtitle">Prestige</div>
+									<div class="window__desc">Самые тихие окна</div>
+									<div class="window__text">ILMARI Classic — отлично защищают от холода и очень надёжны. Их лаконичный, классический для пластиковых окон, дизайн, дополняет безупречной белизной и глянцевой поверхностью профиля.</div>
+									<div class="window__icons icons">
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-thermomethr"></i></div><span>Тепло</span></div>
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-sound-off"></i></div><span>Звук</span></div>
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-lamp"></i></div><span>Свет</span></div>
+										<div class="icons__item"><div class="icons__wrapper"><i class="icon icon-time"></i></div><span>Гарантия</span></div>
+									</div>
+								</div>
+								<div class="window__middle col">
+									<div class="window__img"><img src="uploads/images/windows/prestige/Prestige2.png" alt=""></div>
+									<div class="window__share share-minni"><span>-35%</span>скидка!</div>
+									<div class="window__zoom"><a data-fancybox="windows-prestige" href="uploads/images/other/main.png"><i class="icon icon-magnifying-glass"></i></a></div>
+								</div>
+								<div class="window__right col">
+									<div class="window__price"><span>22 500</span> руб.</div>
+									<div class="window__price-old">от <span>32 700</span> руб.*</div>
+									<a data-fancybox data-src="#popup-share" href="javascript:;" class="window__button button">Посчитать со скидкой</a>
+									<div class="window__status status">
+										<div class="status__line"><div class="status__title">Шумоизоляция <span>до 40 дБ</span></div><div class="status__bar status__bar_blue" data-status="40"><div></div></div></div>
+										<div class="status__line"><div class="status__title">Теплоизоляция <span>- 0,83м2 с/вт</span></div><div class="status__bar status__bar_orange" data-status="60"><div></div></div></div>
+										<div class="status__line"><div class="status__title">Светопропускание <span>+ 8,9%</span></div><div class="status__bar status__bar_gray" data-status="50"><div></div></div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="window__images">
+							<a href="uploads/images/other/main.png" data-fancybox="windows-solo"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-solo"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-solo"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-solo"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-solo"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-classic"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-classic"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-classic"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-classic"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-classic"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-elegance"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-elegance"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-elegance"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-elegance"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-elegance"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-prestige"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-prestige"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-prestige"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-prestige"><img src="uploads/images/other/main.png" alt=""></a>
+							<a href="uploads/images/other/main.png" data-fancybox="windows-prestige"><img src="uploads/images/other/main.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="form">
+				<div class="container">
+					<div class="form__title">Закажите бесплатный замер прямо сейчас и получите скидку!</div>
+					<div class="form__desc">Внимание! срок действия акции ограничен только до 30 марта!</div>
+					<div class="form__wrapper">
+						<label for="" class="label"><p>Телефон <span class="color-red">*</span></p><input type="text" class="input input-phone" placeholder="8 (___) ___ __ __"></label>
+						<label for="" class="label"><p>Имя</p><input type="text" class="input"></label>
+						<button class="button">Заказать замер бесплатно</button>
+						<div class="form__required"><span class="color-red">*</span> - Обязательные поля</div>
+					</div>
+				</div>
+			</div>
+			<div class="premium">
+				<div class="container">
+					<div class="premium__wrapper">
+						<div class="premium__title title">Премиум фурнитура</div>
+						<div class="premium__logo"><img src="uploads/images/logos/roto.png" alt=""></div>
+						<div class="premium__text">Пластиковые окна компании «Илмари» - оборудуются немецкой фурнитурой Roto. В базовый комплект входит запатентованный механизм запирания, который обеспечивает надежное прилегание рамы и створки.</div>
+						<div class="premium__pluses pluses row">
+							<div class="pluses__item col">
+								<div class="pluses__img"><img src="uploads/images/premium/1.png" alt=""></div>
+								<div class="pluses__text">Противовзломная <br />фурнитура</div>
+							</div>
+							<div class="pluses__item col">
+								<div class="pluses__img"><img src="uploads/images/premium/2.png" alt=""></div>
+								<div class="pluses__text">Система <br />проветривания</div>
+							</div>
+							<div class="pluses__item col">
+								<div class="pluses__img"><img src="uploads/images/premium/3.png" alt=""></div>
+								<div class="pluses__text">Детский замок</div>
+							</div>
+							<div class="pluses__item col">
+								<div class="pluses__img"><img src="uploads/images/premium/4.png" alt=""></div>
+								<div class="pluses__text">Уникальные <br />ручки</div>
+							</div>
+						</div>
+						<div class="premium__img"><img src="uploads/images/premium/furniture.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+			<div class="color">
+				<div class="container">
+					<div class="color__title title">Выбери свой цвет</div>
+					<div class="color__table row">
+						<div class="color__images col choose__image">
+							<div data-choose="choose-1" data-group="color">
+								<img src="uploads/images/color/list/color-sample-1.jpg" alt="">
+							</div>
+							<div data-choose="choose-2" data-group="color">
+								<img src="uploads/images/color/list/color-sample-2.jpg" alt="">
+								<div class="color__shares share-big"><span>Хит</span>продаж!</div>
+							</div>
+							<div data-choose="choose-3" data-group="color">
+								<img src="uploads/images/color/list/color-sample-3.jpg" alt="">
+							</div>
+							<div data-choose="choose-4" data-group="color">
+								<img src="uploads/images/color/list/color-sample-4.jpg" alt="">
+							</div>
+							<div data-choose="choose-5" data-group="color">
+								<img src="uploads/images/color/list/color-sample-5.jpg" alt="">
+							</div>
+							<div data-choose="choose-6" data-group="color">
+								<img src="uploads/images/color/list/color-sample-6.jpg" alt="">
+							</div>
+							<div data-choose="choose-7" data-group="color">
+								<img src="uploads/images/color/list/color-sample-7.jpg" alt="">
+							</div>
+							<div data-choose="choose-8" data-group="color">
+								<img src="uploads/images/color/list/color-sample-8.jpg" alt="">
+							</div>
+						</div>
+						<div class="color__content col">
+							<div class="color__text">Цвет отображает вашу индивидуальность. Начните выбор <br />своего окна с цвета. Воплотите задумки с изысканными <br />вариантами ламинации «Избранной серии».</div>
+							<div class="color__choose choose">
+								<div class="choose__title">Выберите цвет окна</div>
+								<div class="choose__list">
+									<div class="choose__item" data-choose="choose-1" data-group="color">
+										<div class="choose__img"><img src="uploads/images/color/colors/1.png" alt=""></div>
+										<div class="choose__text">Коричневая вишня</div>
+									</div>
+									<div class="choose__item choose__item_select" data-choose="choose-2" data-group="color">
+										<div class="choose__img"><img src="uploads/images/color/colors/2.png" alt=""></div>
+										<div class="choose__text">Коричневая вишня</div>
+									</div>
+									<div class="choose__item" data-choose="choose-3" data-group="color">
+										<div class="choose__img"><img src="uploads/images/color/colors/3.png" alt=""></div>
+										<div class="choose__text">Коричневая вишня</div>
+									</div>
+									<div class="choose__item" data-choose="choose-4" data-group="color">
+										<div class="choose__img"><img src="uploads/images/color/colors/4.png" alt=""></div>
+										<div class="choose__text">Коричневая вишня</div>
+									</div>
+									<div class="choose__item" data-choose="choose-5" data-group="color">
+										<div class="choose__img"><img src="uploads/images/color/colors/5.png" alt=""></div>
+										<div class="choose__text">Коричневая вишня</div>
+									</div>
+									<div class="choose__item" data-choose="choose-6" data-group="color">
+										<div class="choose__img"><img src="uploads/images/color/colors/6.png" alt=""></div>
+										<div class="choose__text">Коричневая вишня</div>
+									</div>
+									<div class="choose__item" data-choose="choose-7" data-group="color">
+										<div class="choose__img"><img src="uploads/images/color/colors/7.png" alt=""></div>
+										<div class="choose__text">Коричневая вишня</div>
+									</div>
+									<div class="choose__item" data-choose="choose-8" data-group="color">
+										<div class="choose__img"><img src="uploads/images/color/colors/8.png" alt=""></div>
+										<div class="choose__text">Коричневая вишня</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="windowsill" class="windowsill anchor">
+				<div class="container row">
+					<div class="windowsill__content col">
+						<div class="windowsill__title title">Качественные подоконники</div>
+						<div class="windowsill__text">Наши подоконники не поддаются воздействию влаги <br />и солнечных лучей, они имеют достаточно высокую прочность и теплоизоляцию. Вы можете выбрать к своему новому окну обычный белый или цветной подоконник «под дерево», или «под камень»</div>
+						<div class="windowsill__choose">
+							<div class="choose__title">Выберите цвет подоконника</div>
+							<div class="choose__list">
+								<div class="choose__item choose__item_select" data-choose="choose-1" data-group="windowsill">
+									<div class="choose__img"><img src="uploads/images/windowsill/colors/1.png" alt=""></div>
+									<div class="choose__text">Коричневая вишня</div>
+								</div>
+								<div class="choose__item" data-choose="choose-2" data-group="windowsill">
+									<div class="choose__img"><img src="uploads/images/windowsill/colors/2.png" alt=""></div>
+									<div class="choose__text">Белый глянец</div>
+								</div>
+								<div class="choose__item" data-choose="choose-3" data-group="windowsill">
+									<div class="choose__img"><img src="uploads/images/windowsill/colors/3.png" alt=""></div>
+									<div class="choose__text">Турецкий мрамор</div>
+								</div>
+								<div class="choose__item" data-choose="choose-4" data-group="windowsill">
+									<div class="choose__img"><img src="uploads/images/windowsill/colors/4.png" alt=""></div>
+									<div class="choose__text">Розовый оникс</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="windowsill__img col choose__image">
+						<div data-choose="choose-1" data-group="windowsill"><img src="uploads/images/windowsill/list/1.png" alt=""><div class="windowsill__share share-big"><span>25</span>лет гарантия!</div></div>
+						<div data-choose="choose-2" data-group="windowsill"><img src="uploads/images/windowsill/list/2.png" alt=""><div class="windowsill__share share-big"><span>25</span>лет гарантия!</div></div>
+						<div data-choose="choose-3" data-group="windowsill"><img src="uploads/images/windowsill/list/3.png" alt=""><div class="windowsill__share share-big"><span>25</span>лет гарантия!</div></div>
+						<div data-choose="choose-4" data-group="windowsill"><img src="uploads/images/windowsill/list/4.png" alt=""><div class="windowsill__share share-big"><span>25</span>лет гарантия!</div></div>
+					</div>
+				</div>
+			</div>
+			<a data-fancybox data-src="#popup-video" href="javascript:;" class="video">
+				<div class="container">
+					<div class="video__content">
+						<div class="video__title title">Как мы делаем монтаж</div>
+						<div class="video__icon"><i class="icon icon-play-default"></i></div>
+						<div class="video__text">Посмотрите, как мы делаем монтаж окон под ключ</div>
+					</div>
+				</div>
+			</a>
+			<div id="portfolio" class="portfolio anchor">
+				<div class="container">
+					<div class="portfolio__title title">Наши работы</div>
+					<div class="portfolio__content">
+						<div class="portfolio__nav slider-nav">
+							<div>Окна в квартиру</div>
+							<div>Окна в дом</div>
+							<div>Алюминевые двери</div>
+							<div>Жалюзи на окна</div>
+						</div>
+						<div class="portfolio__slider slider-content row">
+							<div>
+								<div class="portfolio__slider-content">
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-1-1"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-1-2"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-1-3"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-1-4"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-1-5"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="portfolio__slider-content">
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-2-1"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-2-2"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-2-3"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-2-4"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-2-5"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="portfolio__slider-content">
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-3-1"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-3-2"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-3-3"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-3-4"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-3-5"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="portfolio__slider-content">
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-4-1"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-4-2"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-4-3"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-4-4"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<a href="uploads/images/portfolio/1.png" class="portfolio__image" data-fancybox="portfolio-4-5"><img src="uploads/images/portfolio/1.png" alt=""></a>
+										<div class="portfolio__content">
+											<div class="portfolio__subtitle">Окно в квартиру</div>
+											<div class="portfolio__block">
+												<span>Задача:</span>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+											</div>
+											<div class="portfolio__block">
+												<span>Решение:</span>
+												<p>Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="portfolio__price price-block">
+												<div class="price-block__count"><span>112 500</span> руб.</div>
+												<div class="price-block__table">
+													<div class="price-block__col col">
+														<p>Окон:</p>
+														<p><span class="color-gray">17 шт.</span></p>
+													</div>
+													<div class="price-block__col col">
+														<p>Срок: </p>
+														<p><span class="color-gray">21 день</span></p>
+													</div>
+												</div>
+												<a data-fancybox data-src="#popup-share" href="javascript:;" class="price-block__button button">Хочу так же</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="certificates">
+				<div class="container">
+					<div class="certificates__title title">Наша компетенция</div>
+					<div class="certificates__list slider-content">
+						<div><a href="uploads/images/certificates/1.png"  data-fancybox="certificates"><img src="uploads/images/certificates/1.png" alt=""></a></div>
+						<div><a href="uploads/images/certificates/2.png"  data-fancybox="certificates"><img src="uploads/images/certificates/2.png" alt=""></a></div>
+						<div><a href="uploads/images/certificates/3.png"  data-fancybox="certificates"><img src="uploads/images/certificates/3.png" alt=""></a></div>
+						<div><a href="uploads/images/certificates/1.png"  data-fancybox="certificates"><img src="uploads/images/certificates/1.png" alt=""></a></div>
+					</div>
+				</div>
+			</div>
+			<div id="reviews" class="reviews anchor">
+				<div class="container">
+					<div class="reviews__title title">Отзывы</div>
+					<div class="reviews__list dots slider-content">
+						<div>
+							<div class="reviews__content">
+								<div class="reviews__text">СПАСИБО за наши необыкновенные окна! Когда мы задумали ремонт, то сразу решили, что будем делать витражное окно в детской. Теперь у ребенка есть окно в сказку. Спасибо ещё раз!!!!</div>
+								<div class="reviews__persona persona">
+									<div class="persona__img"><img src="uploads/images/persona/1.png" alt=""></div>
+									<div class="persona__content">
+										<div class="persona__name">Сафронова Светлана</div>
+										<div class="persona__desc">Договор 8571/16 05.03.2016</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__img"><img src="uploads/images/reviews/1.png" alt=""></div>
+						</div>
+						<div>
+							<div class="reviews__content">
+								<div class="reviews__text">СПАСИБО за наши необыкновенные окна! Когда мы задумали ремонт, то сразу решили, что будем делать витражное окно в детской. Теперь у ребенка есть окно в сказку. Спасибо ещё раз!!!!</div>
+								<div class="reviews__persona persona">
+									<div class="persona__img"><img src="uploads/images/persona/1.png" alt=""></div>
+									<div class="persona__content">
+										<div class="persona__name">Сафронова Светлана</div>
+										<div class="persona__desc">Договор 8571/16 05.03.2016</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__img"><img src="uploads/images/reviews/1.png" alt=""></div>
+						</div>
+						<div>
+							<div class="reviews__content">
+								<div class="reviews__text">СПАСИБО за наши необыкновенные окна! Когда мы задумали ремонт, то сразу решили, что будем делать витражное окно в детской. Теперь у ребенка есть окно в сказку. Спасибо ещё раз!!!!</div>
+								<div class="reviews__persona persona">
+									<div class="persona__img"><img src="uploads/images/persona/1.png" alt=""></div>
+									<div class="persona__content">
+										<div class="persona__name">Сафронова Светлана</div>
+										<div class="persona__desc">Договор 8571/16 05.03.2016</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__img"><img src="uploads/images/reviews/1.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="contacts" class="contacts anchor">
+				<div class="container row">
+					<div class="contacts__content col">
+						<div class="contacts__title">Остались вопросы?</div>
+						<div class="contacts__block row">
+							<div class="contacts__col col">
+								<div class="contacts__subtitle">Звоните нам:</div>
+								<div class="contacts__phone"><a href="">+7 (919) 600 20 20</a></div>
+								<p>или</p>
+								<div class="contacts__callback"><span class="callback callback_red">Заказать обратный звонок</span></div>
+							</div>
+							<div class="contacts__col col">
+								<div class="contacts__subtitle">Работаем в городах:</div>
+								<p>Стерлитамак, Салават, <br />Ишимбай.</p>
+							</div>
+						</div>
+						<div class="contacts__block row">
+							<div class="contacts__col col">
+								<div class="contacts__subtitle">График работы:</div>
+								<p>Пн — пт с 10:00 до 19:00</p>
+								<p>Суббота с 10:00 до 14:00</p>
+								<p><span class="color-gray">Воскресенье выходной</span></p>
+							</div>
+							<div class="contacts__col col">
+								<div class="contacts__subtitle">Главный офис:</div>
+								<p>Россия, 453215, <br />Республика Башкортостан, <br />г. Ишимбай, Пр. Ленина, 35</p>
+							</div>
+						</div>
+						<div class="contacts__images">
+							<a href="uploads/images/contacts/1.png" data-fancybox="contacts-gallery" class="col"><img src="uploads/images/contacts/1.png" alt=""></a>
+							<a href="uploads/images/contacts/1.png" data-fancybox="contacts-gallery" class="col"><img src="uploads/images/contacts/1.png" alt=""></a>
+							<a href="uploads/images/contacts/1.png" data-fancybox="contacts-gallery" class="col"><img src="uploads/images/contacts/1.png" alt=""></a>
+						</div>
+					</div>
+					<div class="contacts__map col"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A587db965cc854ec90f3f474014b9e63657cf53753eaebde89ed9245faaf68f26&amp;width=654&amp;height=517&amp;lang=ru_RU&amp;scroll=true"></script></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container row">
+				<div class="footer__copy copy col">
+					<p class="copy__count">© 2015 - 2017</p>
+					<p>ООО “Окна Маркет”</p>
+					<p>Оф. представить ILMARI в Респ. Башкортостан.</p>
+					<p><a href="uploads/docs/requisites.doc" download>Реквизиты компании</a></p>
+				</div>
+				<div class="footer__socials socials col">
+					<ul class="li_reset li_line">
+						<li class="socials__youtube"><a href=""><i class="icon icon-youtube-default"></i></a></li>
+						<li class="socials__vk"><a href=""><i class="icon icon-vk-default"></i></a></li>
+						<li class="socials__mail"><a href=""><i class="icon icon-mail-default"></i></a></li>
+					</ul>
+				</div>
+				<div class="footer__pay pay col">
+					<div class="pay__title">Принимаем к оплате:</div>
+					<div class="pay__list"><i class="icon icon-mir"></i><i class="icon icon-visa-mastercard"></i></div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+		var ZCallbackWidgetLinkId  = 'd58181f4513b2c0a60eace91f30b72ae';
+		var ZCallbackWidgetDomain  = 'my.zadarma.com';
+		(function(){
+		    var lt = document.createElement('script');
+		    lt.type ='text/javascript';
+		    lt.charset = 'utf-8';
+		    lt.async = true;
+		    lt.src = 'https://' + ZCallbackWidgetDomain + '/callbackWidget/js/main.min.js?unq='+Math.floor(Math.random(0,1000)*1000);
+		    var sc = document.getElementsByTagName('script')[0];
+		    if (sc) sc.parentNode.insertBefore(lt, sc);
+		    else document.documentElement.firstChild.appendChild(lt);
+		})();
+		</script>
+		<script>			
+			/* Parallax */
+			$('.premium').parallax({imageSrc: 'uploads/images/premium/background-for-paralacs.jpg'});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+@media screen and (max-width: 1345px) {
+  .slider-content .slick-arrow.slick-next {
+    right: -50px; }
+  .slider-content .slick-arrow.slick-prev {
+    left: -50px; }
+  .portfolio__slider {
+    margin-left: -50px;
+    margin-right: -50px; }
+    .portfolio__slider .slick-arrow.slick-next {
+      right: -50px; }
+    .portfolio__slider .slick-arrow.slick-prev {
+      left: -50px; }
+  .portfolio__image {
+    margin-left: 50px; }
+  .portfolio__content {
+    right: 50px !important; }
+  .reviews .slick-prev {
+    left: -35px !important; } }
